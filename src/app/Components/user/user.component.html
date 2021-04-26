@@ -1,0 +1,7 @@
+
+<h3>User Page</h3>
+<div>
+    <ul *ngFor="let x of movies">
+        <li><a href='/userdetail/{{x.id}}' (click)="change(x)">{{x.login}}</a></li>
+    </ul>
+</div>
